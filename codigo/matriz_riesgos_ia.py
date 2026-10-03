@@ -85,16 +85,16 @@ def marcar_revision(p, s):
     """
     Indica si el riesgo exige revisión humana.
 
-    Se marca cuando la severidad es 3 o cuando la prioridad R alcanza el
-    rango 6 a 9, que es el que se revisa primero. Una severidad 3 se marca
-    aunque R sea menor, porque el perjuicio es difícil de reparar.
+    Se marca como "SÍ" cuando la severidad es 3 o cuando la prioridad R
+    alcanza el rango 6 a 9, que es el que se revisa primero. Una severidad 3
+    se marca aunque R sea menor, porque el perjuicio es difícil de reparar.
+    Los riesgos que no cumplen ninguna de las dos condiciones quedan como
+    "recomendada", que es el mismo texto que usa la Tabla 14 del informe.
     """
     prioridad = p * s
-    if s == 3:
+    if s == 3 or prioridad >= 6:
         return "SÍ"
-    if prioridad >= 6:
-        return "SÍ"
-    return "no obligatoria"
+    return "recomendada"
 
 
 def crear_riesgo(id_, descripcion, p, s, afectados, control, responsable, prueba):
