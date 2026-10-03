@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1080" viewBox="0 0 720 1080" font-family="DejaVu Sans, sans-serif">
+<rect width="720" height="1080" fill="#ffffff"/>
+<path d="M 185.0,764.0 C 185.0,862.0 525.0,742.0 525.0,840.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<rect x="236.5" y="793.0" width="237.0" height="16" rx="4" fill="#ffffff" stroke="#cfd8dc" stroke-width="0.8"/>
+<text x="355.0" y="804.5" font-family="DejaVu Sans, sans-serif" font-size="10" fill="#37474f" text-anchor="middle">los sistemas difusos aplican la lógica difusa</text>
+<polygon points="525.0,840.0 519.5,831.2 530.5,831.2" fill="#546e7a"/>
+<path d="M 185.0,604.0 C 185.0,482.0 525.0,582.0 525.0,460.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<rect x="244.0" y="523.0" width="222.0" height="16" rx="4" fill="#ffffff" stroke="#cfd8dc" stroke-width="0.8"/>
+<text x="355.0" y="534.5" font-family="DejaVu Sans, sans-serif" font-size="10" fill="#37474f" text-anchor="middle">es un paradigma del aprendizaje automático</text>
+<polygon points="525.0,460.0 519.5,451.2 530.5,451.2" fill="#546e7a"/>
+<path d="M 185.0,434.0 C 185.0,482.0 525.0,412.0 525.0,460.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<rect x="236.5" y="438.0" width="237.0" height="16" rx="4" fill="#ffffff" stroke="#cfd8dc" stroke-width="0.8"/>
+<text x="355.0" y="449.5" font-family="DejaVu Sans, sans-serif" font-size="10" fill="#37474f" text-anchor="middle">se estudian dentro del aprendizaje automático</text>
+<polygon points="525.0,460.0 519.5,451.2 530.5,451.2" fill="#546e7a"/>
+<path d="M 185.0,259.0 C 185.0,412.0 185.0,237.0 185.0,390.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<rect x="96.5" y="315.5" width="177.0" height="16" rx="4" fill="#ffffff" stroke="#cfd8dc" stroke-width="0.8"/>
+<text x="185.0" y="327.0" font-family="DejaVu Sans, sans-serif" font-size="10" fill="#37474f" text-anchor="middle">se construye con redes neuronales</text>
+<polygon points="185.0,390.0 179.5,381.2 190.5,381.2" fill="#546e7a"/>
+<path d="M 185.0,259.0 C 185.0,82.0 525.0,237.0 525.0,60.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<rect x="286.5" y="150.5" width="137.0" height="16" rx="4" fill="#ffffff" stroke="#cfd8dc" stroke-width="0.8"/>
+<text x="355.0" y="162.0" font-family="DejaVu Sans, sans-serif" font-size="10" fill="#37474f" text-anchor="middle">se usa para tareas de PLN</text>
+<polygon points="525.0,60.0 519.5,51.2 530.5,51.2" fill="#546e7a"/>
+<path d="M 525.0,704.0 C 525.0,412.0 185.0,682.0 185.0,390.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<rect x="264.0" y="538.0" width="182.0" height="16" rx="4" fill="#ffffff" stroke="#cfd8dc" stroke-width="0.8"/>
+<text x="355.0" y="549.5" font-family="DejaVu Sans, sans-serif" font-size="10" fill="#37474f" text-anchor="middle">suele apoyarse en redes neuronales</text>
+<polygon points="185.0,390.0 179.5,381.2 190.5,381.2" fill="#546e7a"/>
+<path d="M 185.0,104.0 C 185.0,237.0 185.0,82.0 185.0,215.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<rect x="89.0" y="150.5" width="192.0" height="16" rx="4" fill="#ffffff" stroke="#cfd8dc" stroke-width="0.8"/>
+<text x="185.0" y="162.0" font-family="DejaVu Sans, sans-serif" font-size="10" fill="#37474f" text-anchor="middle">el asistente propuesto usaría un LLM</text>
+<polygon points="185.0,215.0 179.5,206.2 190.5,206.2" fill="#546e7a"/>
+<rect x="70" y="980" width="230" height="44" rx="8" ry="8" fill="#f5f5f5" stroke="#455a64" stroke-width="1.4"/>
+<text x="185.0" y="1007.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Algoritmos evolutivos</text>
+<rect x="70" y="390" width="230" height="44" rx="8" ry="8" fill="#e8eaf6" stroke="#455a64" stroke-width="1.4"/>
+<text x="185.0" y="417.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Redes neuronales</text>
+<rect x="70" y="720" width="230" height="44" rx="8" ry="8" fill="#e0f2f1" stroke="#455a64" stroke-width="1.4"/>
+<text x="185.0" y="747.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Lógica difusa</text>
+<rect x="410" y="460" width="230" height="44" rx="8" ry="8" fill="#e3f2fd" stroke="#455a64" stroke-width="1.4"/>
+<text x="525.0" y="487.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Aprendizaje automático</text>
+<rect x="410" y="660" width="230" height="44" rx="8" ry="8" fill="#fff3e0" stroke="#455a64" stroke-width="1.4"/>
+<text x="525.0" y="687.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Visión por computadora</text>
+<rect x="410" y="60" width="230" height="44" rx="8" ry="8" fill="#e8f5e9" stroke="#455a64" stroke-width="1.4"/>
+<text x="525.0" y="79.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Procesamiento de lenguaje natural</text>
+<text x="525.0" y="95.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">(PLN)</text>
+<rect x="70" y="560" width="230" height="44" rx="8" ry="8" fill="#fce4ec" stroke="#455a64" stroke-width="1.4"/>
+<text x="185.0" y="587.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Aprendizaje por reforzamiento</text>
+<rect x="410" y="840" width="230" height="44" rx="8" ry="8" fill="#e0f2f1" stroke="#455a64" stroke-width="1.4"/>
+<text x="525.0" y="867.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Sistemas difusos</text>
+<rect x="70" y="215" width="230" height="44" rx="8" ry="8" fill="#ede7f6" stroke="#455a64" stroke-width="1.4"/>
+<text x="185.0" y="242.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">LLM</text>
+<rect x="70" y="60" width="230" height="44" rx="8" ry="8" fill="#fff59d" stroke="#455a64" stroke-width="1.4"/>
+<text x="185.0" y="87.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Asistente BIB-01</text>
+</svg>

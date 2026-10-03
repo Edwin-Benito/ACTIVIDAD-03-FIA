@@ -1,0 +1,5 @@
+﻿paso,palabra_actual,opciones,elegido
+1,la,biblioteca:4/4=1.0000,biblioteca
+2,biblioteca,abre:3/4=0.7500; cierra:1/4=0.2500,cierra
+3,cierra,temprano:1/1=1.0000,temprano
+4,temprano,<FIN>:3/3=1.0000,<FIN>

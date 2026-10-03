@@ -1,0 +1,270 @@
+REGISTRO DE PRUEBAS - ejecutado el 2026-10-03 14:44:54
+Python 3.14.4
+
+[M-01] mapa_ramas_ia.py
+  Entrada  : consulta "PLN"
+  Esperado : Muestra la ficha de PLN y su conexión con LLM.
+  Código de salida: 0
+  Obtenido :
+    == Procesamiento de lenguaje natural (PLN) ==
+    Técnica       : Análisis y generación de lenguaje humano
+    Datos         : texto dividido en tokens
+    Aplicaciones  : entender que dos preguntas con distinta redacción significan lo mismo; clasificar consultas; redactar respuestas con respaldo
+    Para BIB-01   : Sí: la tarea es entender preguntas y redactar respuestas a partir de BIB-01.
+    Conexiones:
+      - LLM: se usa para tareas de PLN
+  Resultado: CUMPLE
+
+[M-02] mapa_ramas_ia.py
+  Entrada  : consulta "Quantum" (rama inexistente)
+  Esperado : Indica «Término no registrado».
+  Código de salida: 0
+  Obtenido :
+    Término no registrado: «Quantum». Pruebe con una rama de la Tabla 2.
+  Resultado: CUMPLE
+
+[M-03] mapa_ramas_ia.py
+  Entrada  : consulta "lógica difusa"
+  Esperado : Muestra la ficha y la conexión con Sistemas difusos.
+  Código de salida: 0
+  Obtenido :
+    == Lógica difusa ==
+    Técnica       : Pertenencia gradual a categorías y reglas combinadas
+    Datos         : valores medidos, funciones de pertenencia, reglas
+    Aplicaciones  : ventilación según ocupación de una sala; control de un ventilador por temperatura; regulación de iluminación
+    Para BIB-01   : No necesaria: no hay magnitudes graduales que controlar (solo práctica del inciso b).
+    Conexiones:
+      - Sistemas difusos: los sistemas difusos aplican la lógica difusa
+  Resultado: CUMPLE
+
+[M-04] mapa_ramas_ia.py
+  Entrada  : consulta "reforzamiento"
+  Esperado : Muestra la ficha y la conexión con Aprendizaje automático.
+  Código de salida: 0
+  Obtenido :
+    == Aprendizaje por reforzamiento ==
+    Técnica       : Un agente aprende acciones mediante recompensas (p. ej. Q-Learning)
+    Datos         : estados, acciones, recompensas
+    Aplicaciones  : robot simulado que lleva un libro a su estante; agente que aprende a recorrer una cuadrícula; juegos de estrategia
+    Para BIB-01   : No necesaria: el asistente no aprende por recompensas.
+    Conexiones:
+      - Aprendizaje automático: es un paradigma del aprendizaje automático
+  Resultado: CUMPLE
+
+[M-05] mapa_ramas_ia.py
+  Entrada  : consulta "" (vacía)
+  Esperado : Indica «Consulta vacía» sin error.
+  Código de salida: 0
+  Obtenido :
+    Consulta vacía: escriba el nombre de una rama, técnica o concepto.
+  Resultado: CUMPLE
+
+[M-06] mapa_ramas_ia.py
+  Entrada  : recomendar "algo" "otra cosa" "" (sin pistas)
+  Esperado : Responde «Información insuficiente»; no declara incompatibilidad.
+  Código de salida: 0
+  Obtenido :
+    Información insuficiente: no hay datos para recomendar una rama.
+  Resultado: CUMPLE
+
+[M-07] mapa_ramas_ia.py
+  Entrada  : recomendar "imagenes" "clasificar" "sin imagenes"
+  Esperado : Visión por computadora aparece como incompatible por la restricción escrita.
+  Código de salida: 0
+  Obtenido :
+    Visión por computadora: incompatible por la restricción explícita «sin imagenes».
+    Aprendizaje automático: sirve para esta tarea (Ajuste de modelos a partir de datos).
+  Resultado: CUMPLE
+
+[X-01] matriz_riesgos_ia.py
+  Entrada  : P = 2, S = 3
+  Esperado : R = 6 y revisión humana SÍ.
+  Código de salida: 0
+  Obtenido :
+    P=2 S=3 -> R=6; revisión humana: SÍ
+  Resultado: CUMPLE
+
+[X-02] matriz_riesgos_ia.py
+  Entrada  : P = 4, S = 2
+  Esperado : Rechaza P = 4 (código de salida 1).
+  Código de salida: 1
+  Obtenido :
+    RECHAZADO: «probabilidad» debe ser 1, 2 o 3; se recibió 4.
+  Resultado: CUMPLE
+
+[X-03] matriz_riesgos_ia.py
+  Entrada  : responsable vacío
+  Esperado : Rechaza el campo «responsable» vacío (código de salida 1).
+  Código de salida: 1
+  Obtenido :
+    RECHAZADO: El campo «responsable» no puede estar vacío.
+  Resultado: CUMPLE
+
+[X-04] matriz_riesgos_ia.py
+  Entrada  : --demo (7 riesgos de BIB-01)
+  Esperado : Orden: RSK-03, RSK-05, RSK-07, RSK-01, RSK-02, RSK-04, RSK-06 y CSV guardado.
+  Código de salida: 0
+  Obtenido :
+    ID      P  S  R  Revisión humana Responsable       Riesgo
+    RSK-03  2  3  6  SÍ              Operador          Privacidad
+    RSK-05  2  3  6  SÍ              Administrador     Uso indebido
+    RSK-07  2  3  6  SÍ              Coordinación      Responsabilidad difusa
+    RSK-01  3  2  6  no obligatoria  Bibliotecario     Errores plausibles
+    RSK-02  2  2  4  no obligatoria  Equipo evaluador  Sesgo
+    RSK-04  2  2  4  no obligatoria  Diseñador         Opacidad
+    RSK-06  2  2  4  no obligatoria  Coordinación      Dependencia tecnológica
+    Archivo guardado en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/matriz_riesgos.csv
+  Resultado: CUMPLE
+
+[L-01] mini_modelo_lenguaje.py
+  Entrada  : corpus de 4 frases, inicio «biblioteca», semilla 1, límite 10
+  Esperado : Antes del sorteo: abre 3/4 = 0.75 y cierra 1/4 = 0.25.
+  Código de salida: 0
+  Obtenido :
+    Frases del corpus: 4
+    Antes del sorteo, continuaciones de «biblioteca» (N = 4):
+      abre: 3/4 = 0.75
+      cierra: 1/4 = 0.25
+    Semilla: 1 | Límite: 10
+    Texto generado: biblioteca abre tarde
+    Motivo de parada: FIN - Se llegó a <FIN>.
+    Palabras: 3 (máximo 10)
+    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_L-01.csv
+    Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
+  Resultado: CUMPLE
+
+[L-02] mini_modelo_lenguaje.py
+  Entrada  : corpus sin la cuarta frase, inicio «biblioteca»
+  Esperado : abre 2/3 = 0.67 y cierra 1/3 = 0.33.
+  Código de salida: 0
+  Obtenido :
+    Frases del corpus: 3
+    Antes del sorteo, continuaciones de «biblioteca» (N = 3):
+      abre: 2/3 = 0.67
+      cierra: 1/3 = 0.33
+    Semilla: 1 | Límite: 10
+    Texto generado: biblioteca abre temprano
+    Motivo de parada: FIN - Se llegó a <FIN>.
+    Palabras: 3 (máximo 10)
+    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_L-02.csv
+    Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
+  Resultado: CUMPLE
+
+[L-03] mini_modelo_lenguaje.py
+  Entrada  : corpus vacío
+  Esperado : Rechaza el corpus vacío antes de generar (código de salida 1).
+  Código de salida: 1
+  Obtenido :
+    RECHAZADO: Corpus vacío: no hay frases con palabras. No se puede construir el modelo.
+  Resultado: CUMPLE
+
+[L-04] mini_modelo_lenguaje.py
+  Entrada  : inicio «museo» con corpus válido
+  Esperado : Se detiene: motivo sin_continuacion; texto de una sola palabra.
+  Código de salida: 0
+  Obtenido :
+    Frases del corpus: 4
+    Semilla: 1 | Límite: 10
+    Texto generado: museo
+    Motivo de parada: sin_continuacion - Contexto no observado: la palabra no tiene continuaciones en el corpus.
+    Palabras: 1 (máximo 10)
+    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_L-04.csv
+    Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
+  Resultado: CUMPLE
+
+[L-05] mini_modelo_lenguaje.py
+  Entrada  : inicio «la», límite 2
+  Esperado : Parada por límite con exactamente 2 palabras.
+  Código de salida: 0
+  Obtenido :
+    Frases del corpus: 4
+    Antes del sorteo, continuaciones de «la» (N = 4):
+      biblioteca: 4/4 = 1.00
+    Semilla: 1 | Límite: 2
+    Texto generado: la biblioteca
+    Motivo de parada: limite - Se alcanzó el límite de palabras.
+    Palabras: 2 (máximo 2)
+    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_L-05.csv
+    Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
+  Resultado: CUMPLE
+
+[L-06] mini_modelo_lenguaje.py
+  Entrada  : límite 0 (fuera del rango 1 a 50)
+  Esperado : Rechaza el límite (código de salida 1).
+  Código de salida: 1
+  Obtenido :
+    RECHAZADO: El límite debe estar entre 1 y 50; se recibió 0.
+  Resultado: CUMPLE
+
+[L-07] mini_modelo_lenguaje.py
+  Entrada  : inicio «la», semilla 1, límite 10
+  Esperado : Texto de 1 a 10 palabras, solo palabras del corpus, parada por FIN o límite.
+  Código de salida: 0
+  Obtenido :
+    Frases del corpus: 4
+    Antes del sorteo, continuaciones de «la» (N = 4):
+      biblioteca: 4/4 = 1.00
+    Semilla: 1 | Límite: 10
+    Texto generado: la biblioteca cierra temprano
+    Motivo de parada: FIN - Se llegó a <FIN>.
+    Palabras: 4 (máximo 10)
+    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_semilla_1.csv
+    Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
+  Resultado: CUMPLE
+
+[L-08] mini_modelo_lenguaje.py
+  Entrada  : inicio «la», semilla 2, límite 10
+  Esperado : Mismas condiciones que la semilla 1; los textos pueden coincidir o diferir.
+  Código de salida: 0
+  Obtenido :
+    Frases del corpus: 4
+    Antes del sorteo, continuaciones de «la» (N = 4):
+      biblioteca: 4/4 = 1.00
+    Semilla: 2 | Límite: 10
+    Texto generado: la biblioteca cierra temprano
+    Motivo de parada: FIN - Se llegó a <FIN>.
+    Palabras: 4 (máximo 10)
+    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_semilla_2.csv
+    Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
+  Resultado: CUMPLE
+
+[L-09] mini_modelo_lenguaje.py
+  Entrada  : semilla 1 repetida
+  Esperado : Repetir la semilla 1 produce exactamente el mismo texto que L-07.
+  Código de salida: 0
+  Obtenido :
+    Frases del corpus: 4
+    Antes del sorteo, continuaciones de «la» (N = 4):
+      biblioteca: 4/4 = 1.00
+    Semilla: 1 | Límite: 10
+    Texto generado: la biblioteca cierra temprano
+    Motivo de parada: FIN - Se llegó a <FIN>.
+    Palabras: 4 (máximo 10)
+    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_semilla_1_repetida.csv
+    Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
+  Resultado: CUMPLE
+
+[L-10] mini_modelo_lenguaje.py
+  Entrada  : inicio «la», semilla 5, límite 10
+  Esperado : Mismas condiciones que las semillas 1 y 2; se espera ver si otra semilla cambia el sorteo.
+  Código de salida: 0
+  Obtenido :
+    Frases del corpus: 4
+    Antes del sorteo, continuaciones de «la» (N = 4):
+      biblioteca: 4/4 = 1.00
+    Semilla: 5 | Límite: 10
+    Texto generado: la biblioteca abre tarde
+    Motivo de parada: FIN - Se llegó a <FIN>.
+    Palabras: 4 (máximo 10)
+    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_semilla_5.csv
+    Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
+  Resultado: CUMPLE
+
+COMPARACIÓN DE SEMILLAS
+  Semilla 1: la biblioteca cierra temprano
+  Semilla 2: la biblioteca cierra temprano
+  Semillas 1 y 2: los textos coinciden; eso no demuestra un error.
+  Semilla 5: la biblioteca abre tarde
+  Semillas 1 y 5: los textos difieren; otra semilla cambió el sorteo.
+
+RESUMEN: 21 de 21 pruebas cumplen lo esperado.

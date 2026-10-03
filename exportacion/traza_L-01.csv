@@ -1,0 +1,4 @@
+﻿paso,palabra_actual,opciones,elegido
+1,biblioteca,abre:3/4=0.7500; cierra:1/4=0.2500,abre
+2,abre,temprano:2/3=0.6667; tarde:1/3=0.3333,tarde
+3,tarde,<FIN>:1/1=1.0000,<FIN>

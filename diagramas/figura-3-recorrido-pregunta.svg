@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="1114" viewBox="0 0 820 1114" font-family="DejaVu Sans, sans-serif">
+<rect width="820" height="1114" fill="#ffffff"/>
+<rect x="285.0" y="20" width="250" height="44" rx="8" ry="8" fill="#e3f2fd" stroke="#455a64" stroke-width="1.4"/>
+<text x="410.0" y="47.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Recibir la pregunta</text>
+<rect x="285.0" y="120" width="250" height="44" rx="8" ry="8" fill="#fff3e0" stroke="#37474f" stroke-width="1.4"/>
+<text x="410.0" y="147.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Revisar datos y alcance</text>
+<rect x="9.0" y="220" width="250" height="44" rx="8" ry="8" fill="#f5f5f5" stroke="#455a64" stroke-width="1.4"/>
+<text x="134.0" y="247.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Pedir retirar el dato</text>
+<rect x="285.0" y="220" width="250" height="44" rx="8" ry="8" fill="#f5f5f5" stroke="#455a64" stroke-width="1.4"/>
+<text x="410.0" y="247.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Rechazar la solicitud</text>
+<rect x="561.0" y="220" width="250" height="44" rx="8" ry="8" fill="#f5f5f5" stroke="#455a64" stroke-width="1.4"/>
+<text x="686.0" y="247.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Consultar BIB-01 v1</text>
+<rect x="285.0" y="440" width="250" height="44" rx="8" ry="8" fill="#fff3e0" stroke="#37474f" stroke-width="1.4"/>
+<text x="410.0" y="467.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">¿Hay fragmento que respalde?</text>
+<rect x="147.0" y="540" width="250" height="44" rx="8" ry="8" fill="#f5f5f5" stroke="#455a64" stroke-width="1.4"/>
+<text x="272.0" y="559.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Preparar abstención y remitir al</text>
+<text x="272.0" y="575.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">bibliotecario</text>
+<rect x="423.0" y="540" width="250" height="44" rx="8" ry="8" fill="#f5f5f5" stroke="#455a64" stroke-width="1.4"/>
+<text x="548.0" y="559.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Preparar borrador con fragmento y</text>
+<text x="548.0" y="575.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">fuente</text>
+<rect x="285.0" y="700" width="250" height="44" rx="8" ry="8" fill="#fff59d" stroke="#455a64" stroke-width="1.4"/>
+<text x="410.0" y="727.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Persona: el bibliotecario revisa</text>
+<rect x="285.0" y="800" width="250" height="44" rx="8" ry="8" fill="#fff3e0" stroke="#37474f" stroke-width="1.4"/>
+<text x="410.0" y="827.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">¿Aprueba y no hay datos personales?</text>
+<rect x="147.0" y="900" width="250" height="44" rx="8" ry="8" fill="#f5f5f5" stroke="#455a64" stroke-width="1.4"/>
+<text x="272.0" y="927.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Publicar respuesta</text>
+<rect x="423.0" y="900" width="250" height="44" rx="8" ry="8" fill="#f5f5f5" stroke="#455a64" stroke-width="1.4"/>
+<text x="548.0" y="927.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">No publicar; corregir o abstenerse</text>
+<rect x="285.0" y="1060" width="250" height="44" rx="8" ry="8" fill="#e8f5e9" stroke="#455a64" stroke-width="1.4"/>
+<text x="410.0" y="1087.0" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#212121" text-anchor="middle">Guardar registro mínimo</text>
+<path d="M 410.0,64.0 L 410.0,120.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="410.0,120.0 404.5,111.2 415.5,111.2" fill="#546e7a"/>
+<path d="M 410.0,164.0 L 134.0,220.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="134.0,220.0 128.5,211.2 139.5,211.2" fill="#546e7a"/>
+<path d="M 410.0,164.0 L 410.0,220.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="410.0,220.0 404.5,211.2 415.5,211.2" fill="#546e7a"/>
+<path d="M 410.0,164.0 L 686.0,220.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="686.0,220.0 680.5,211.2 691.5,211.2" fill="#546e7a"/>
+<path d="M 686.0,264.0 L 410.0,440.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="410.0,440.0 404.5,431.2 415.5,431.2" fill="#546e7a"/>
+<path d="M 410.0,484.0 L 272.0,540.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="272.0,540.0 266.5,531.2 277.5,531.2" fill="#546e7a"/>
+<path d="M 410.0,484.0 L 548.0,540.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="548.0,540.0 542.5,531.2 553.5,531.2" fill="#546e7a"/>
+<path d="M 272.0,584.0 L 410.0,700.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="410.0,700.0 404.5,691.2 415.5,691.2" fill="#546e7a"/>
+<path d="M 548.0,584.0 L 410.0,700.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="410.0,700.0 404.5,691.2 415.5,691.2" fill="#546e7a"/>
+<path d="M 410.0,744.0 L 410.0,800.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="410.0,800.0 404.5,791.2 415.5,791.2" fill="#546e7a"/>
+<path d="M 410.0,844.0 L 272.0,900.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="272.0,900.0 266.5,891.2 277.5,891.2" fill="#546e7a"/>
+<path d="M 410.0,844.0 L 548.0,900.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="548.0,900.0 542.5,891.2 553.5,891.2" fill="#546e7a"/>
+<path d="M 272.0,944.0 L 410.0,1060.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="410.0,1060.0 404.5,1051.2 415.5,1051.2" fill="#546e7a"/>
+<path d="M 548.0,944.0 L 410.0,1060.0" fill="none" stroke="#546e7a" stroke-width="1.3"/>
+<polygon points="410.0,1060.0 404.5,1051.2 415.5,1051.2" fill="#546e7a"/>
+</svg>

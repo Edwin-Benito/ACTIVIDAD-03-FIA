@@ -1,0 +1,4 @@
+la biblioteca abre temprano
+la biblioteca abre tarde
+la biblioteca cierra temprano
+la biblioteca abre temprano
