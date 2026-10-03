@@ -1,4 +1,4 @@
-REGISTRO DE PRUEBAS - ejecutado el 2026-10-03 14:44:54
+REGISTRO DE PRUEBAS - ejecutado el 2026-10-03 16:39:23
 Python 3.14.4
 
 [M-01] mapa_ramas_ia.py
@@ -109,11 +109,11 @@ Python 3.14.4
     RSK-03  2  3  6  SÍ              Operador          Privacidad
     RSK-05  2  3  6  SÍ              Administrador     Uso indebido
     RSK-07  2  3  6  SÍ              Coordinación      Responsabilidad difusa
-    RSK-01  3  2  6  no obligatoria  Bibliotecario     Errores plausibles
+    RSK-01  3  2  6  SÍ              Bibliotecario     Errores plausibles
     RSK-02  2  2  4  no obligatoria  Equipo evaluador  Sesgo
     RSK-04  2  2  4  no obligatoria  Diseñador         Opacidad
     RSK-06  2  2  4  no obligatoria  Coordinación      Dependencia tecnológica
-    Archivo guardado en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/matriz_riesgos.csv
+    Archivo guardado en: /tmp/opencode/nueva_subida/exportacion/matriz_riesgos.csv
   Resultado: CUMPLE
 
 [L-01] mini_modelo_lenguaje.py
@@ -129,7 +129,7 @@ Python 3.14.4
     Texto generado: biblioteca abre tarde
     Motivo de parada: FIN - Se llegó a <FIN>.
     Palabras: 3 (máximo 10)
-    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_L-01.csv
+    Traza guardada en: /tmp/opencode/nueva_subida/exportacion/traza_L-01.csv
     Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
   Resultado: CUMPLE
 
@@ -146,7 +146,7 @@ Python 3.14.4
     Texto generado: biblioteca abre temprano
     Motivo de parada: FIN - Se llegó a <FIN>.
     Palabras: 3 (máximo 10)
-    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_L-02.csv
+    Traza guardada en: /tmp/opencode/nueva_subida/exportacion/traza_L-02.csv
     Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
   Resultado: CUMPLE
 
@@ -168,7 +168,7 @@ Python 3.14.4
     Texto generado: museo
     Motivo de parada: sin_continuacion - Contexto no observado: la palabra no tiene continuaciones en el corpus.
     Palabras: 1 (máximo 10)
-    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_L-04.csv
+    Traza guardada en: /tmp/opencode/nueva_subida/exportacion/traza_L-04.csv
     Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
   Resultado: CUMPLE
 
@@ -184,7 +184,7 @@ Python 3.14.4
     Texto generado: la biblioteca
     Motivo de parada: limite - Se alcanzó el límite de palabras.
     Palabras: 2 (máximo 2)
-    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_L-05.csv
+    Traza guardada en: /tmp/opencode/nueva_subida/exportacion/traza_L-05.csv
     Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
   Resultado: CUMPLE
 
@@ -208,7 +208,7 @@ Python 3.14.4
     Texto generado: la biblioteca cierra temprano
     Motivo de parada: FIN - Se llegó a <FIN>.
     Palabras: 4 (máximo 10)
-    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_semilla_1.csv
+    Traza guardada en: /tmp/opencode/nueva_subida/exportacion/traza_semilla_1.csv
     Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
   Resultado: CUMPLE
 
@@ -224,7 +224,7 @@ Python 3.14.4
     Texto generado: la biblioteca cierra temprano
     Motivo de parada: FIN - Se llegó a <FIN>.
     Palabras: 4 (máximo 10)
-    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_semilla_2.csv
+    Traza guardada en: /tmp/opencode/nueva_subida/exportacion/traza_semilla_2.csv
     Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
   Resultado: CUMPLE
 
@@ -240,7 +240,7 @@ Python 3.14.4
     Texto generado: la biblioteca cierra temprano
     Motivo de parada: FIN - Se llegó a <FIN>.
     Palabras: 4 (máximo 10)
-    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_semilla_1_repetida.csv
+    Traza guardada en: /tmp/opencode/nueva_subida/exportacion/traza_semilla_1_repetida.csv
     Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
   Resultado: CUMPLE
 
@@ -256,7 +256,7 @@ Python 3.14.4
     Texto generado: la biblioteca abre tarde
     Motivo de parada: FIN - Se llegó a <FIN>.
     Palabras: 4 (máximo 10)
-    Traza guardada en: /home/benito/Documentos/Obsidian Vault/FIA/ACTIVIDADA 3/exportacion/traza_semilla_5.csv
+    Traza guardada en: /tmp/opencode/nueva_subida/exportacion/traza_semilla_5.csv
     Nota: es un generador por conteos, no un LLM; no comprueba que el texto sea verdadero.
   Resultado: CUMPLE
 

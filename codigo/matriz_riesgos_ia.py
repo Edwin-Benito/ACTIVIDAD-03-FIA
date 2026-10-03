@@ -18,7 +18,9 @@ REGLAS
     * Ningún campo puede quedar vacío.
     * Probabilidad y severidad solo admiten los enteros 1, 2 o 3.
     * R = P x S. Orden: mayor R, luego mayor S, luego identificador ascendente.
-    * Toda severidad 3 se marca para revisión humana, aunque R sea menor.
+    * Revisión humana obligatoria si la severidad es 3 o si R está en el
+      rango 6 a 9. Es decir, se revisa primero el rango alto y, además,
+      cualquier gravedad difícil de reparar aunque su R sea menor.
 """
 
 import argparse
@@ -79,6 +81,22 @@ def validar_nivel(nombre, valor):
     return numero
 
 
+def marcar_revision(p, s):
+    """
+    Indica si el riesgo exige revisión humana.
+
+    Se marca cuando la severidad es 3 o cuando la prioridad R alcanza el
+    rango 6 a 9, que es el que se revisa primero. Una severidad 3 se marca
+    aunque R sea menor, porque el perjuicio es difícil de reparar.
+    """
+    prioridad = p * s
+    if s == 3:
+        return "SÍ"
+    if prioridad >= 6:
+        return "SÍ"
+    return "no obligatoria"
+
+
 def crear_riesgo(id_, descripcion, p, s, afectados, control, responsable, prueba):
     """Valida todos los campos y devuelve el riesgo como diccionario."""
     p = validar_nivel("probabilidad", p)
@@ -89,7 +107,7 @@ def crear_riesgo(id_, descripcion, p, s, afectados, control, responsable, prueba
         "probabilidad": p,
         "severidad": s,
         "prioridad": p * s,                              # R = P x S
-        "revision_humana": "SÍ" if s == 3 else "no obligatoria",
+        "revision_humana": marcar_revision(p, s),
         "afectados": validar_texto("personas afectadas", afectados),
         "control": validar_texto("control", control),
         "responsable": validar_texto("responsable", responsable),
